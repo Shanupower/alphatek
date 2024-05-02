@@ -18,6 +18,14 @@
 .image-option.selected {
     border-color: #ffffff;
 }
+
+/* Adding disabled css */
+.image-option.disabled {
+    opacity: 0.5; /* Reduce opacity for disabled effect */
+    pointer-events: none; /* Disable pointer events for clicking */
+    border-color: lightcoral; /* Change border color for disabled effect */
+}
+
 .image-select-container{
     display: flex;
     flex-wrap: wrap;

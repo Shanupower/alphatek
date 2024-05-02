@@ -49,7 +49,7 @@ body {
   height: 400.5px;
   top: 349px;
   left: 911px;
-  margin-left: 25%;
+  margin-left: 15%;
   padding: 8%;
 }
 
@@ -58,14 +58,14 @@ body {
 }
 .plateImageHeading2{
   font-size: 30px;
-    margin-top: -155%;
-    margin-left: 290%;
+    margin-top: -165%;
+    margin-left: 220%;
     content: inherit;
 }
 
 .plateImageFooter2{
   font-size: 30px;
-  margin-left: 300%;
+  margin-left: 240%;
   margin-top: 230%;
 }
 
@@ -88,7 +88,8 @@ body {
 
 .plateNameHeading{
   font-size: 150px;
-  position: absolute;
+  /* Corrected the overlapping */
+  /* position: absolute; */
   z-index: 1;
   margin: 0px;
   font-family: "Montserrat", sans-serif;
@@ -194,6 +195,7 @@ body {
 
 .plateInfoText{
   font-size: 25px;
+  white-space: nowrap;
 }
 
 .plateImageHeading{
